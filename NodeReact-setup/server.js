@@ -1,15 +1,11 @@
-const http = require('http');
 const express = require('express');
+const routes = require('./routes/index.js');
 
 const app = express();
 
-let server = app.listen(3000, () => {
+let server = app.listen(process.env.PORT || 3000, () => {
   console.log('listening. . .');
 });
 
 
-app.use(express.static('public'));
-app.get('/test', (req, res) => {
-  console.log(`request: ${req.url}`);
-  res.send('loud & clear');
-});
+app.use('/', routes);
