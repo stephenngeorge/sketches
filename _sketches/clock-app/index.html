@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Clock Application</title>
+    <link rel="stylesheet" href="flexCSS.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div id="headerDiv">
+      <a name="top">
+        <header id="header">
+          <h1 id="siteTitle">Stephen Neil George</h1>
+        </header>
+      </a>
+    </div>
+    <div id="mainContent">
+      <section id="appNav">
+        <br />
+        <a href="#firstClock"><input type="button" id="clockOne" class="button" value=" Clock 1 " /></a>
+        <a href="#secondClock"><input type="button" id="clockTwo" class="button" value=" Clock 2 " /></a>
+        <a href="#thirdClock"><input type="button" id="clockThree" class="button" value="Clock 3" /></a>
+        <a href="#top"><input type="button" id="toTop" class="button" value="TOP" /></a>
+      </section>
+      <section id="canvasClocks">
+        <!-- text and canvas for clock 1 -->
+        <a name="firstClock">
+        <canvas id="canvas" width="500" height="500">
+          Your browser doesn't support canvas...please upgrade!
+        </canvas></a>
+        <article id="textClockOne" class="descriptionRight">
+          <h2 id="clockArticle">24-Hour Circles</h2>
+          <p>This simple, circular clock has four wheels:<br />
+            The outermost displays the hours passed in the day,<br />
+            the next shows the minutes per hour, the third shows<br />
+            the seconds and the innermost completes once<br />
+            every second.<br />
+            The current date and time and diplayed in the centre.
+            <br /><br />
+            Coded on the HTML5 canvas element, this clock's<br />
+            functionality is programmed entirely in javacsript.<br />
+            Click the buttons below to view the source code:</p>
+        </article>
+
+        <!-- text and canvas for clock 2-->
+        <article id="textClockTwo" class="descriptionLeft">
+          <h2 id="clockArticle">24-Hour Bars</h2>
+          <p>This clock uses bar-chart style graphics<br />
+          to show the time. The top bar show the number of<br />
+          hours passed in the day, the next shows the minutes<br />
+          per hour and the third shows the seconds per<br />
+          minute.<br />
+          Below sit simple wheel icons to show the progress<br />
+          through the days of the week, the date of the month,<br />
+          the month of the year and, finally, the year of<br />
+          the century.
+          <br /><br />
+          Coded on the HTML5 canvas element, this clock's<br />
+          functionality is programmed entirely in javascript.<br />
+          Click the buttons below to view the source code:</p>
+        </article>
+        <a name="secondClock">
+        <canvas id="canvas2" width="600" height="500">
+          Your browser doesn't suppor the canvas...please upgrade!
+        </canvas></a>
+
+        <!--text and canvas for clock 3-->
+        <a name="thirdClock"><canvas id="canvas3" width="500" height="500">
+          Your browser doesn't support the canvas...please upgrade!
+        </canvas></a>
+      </section>
+
+    </div>
+
+    <!--javascript links-->
+    <script src="clockApp.js"></script>
+    <script src="clockApp2.js"></script>
+    <script src="clockNav.js"></script>
+    <script src="clockApp3.js"></script>
+  </body>
+
+</html>

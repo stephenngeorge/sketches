@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#canvasContainer {
+  width: 970px;
+  height: 550px;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+#canvasContainer:hover {
+  cursor: pointer;
+}
+
+#canvasContainer h1 {
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  font-family: Amatic SC;
+  font-size: 90px;
+  color: rgb(178, 34, 34);
+  line-height: 90%;
+}
+#canvasContainer p {
+  position: absolute;
+  top: 200px;
+  left: 45px;
+  font-family: Amatic SC;
+  font-size: 36px;
+  color: #2a2a2a;
+}
+
+#canvas {
+  border: 5px solid #2a2a2a;
+}
+
+
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Amatic SC', cursive;

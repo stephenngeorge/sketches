@@ -1,0 +1,52 @@
+#header {
+  width: 100%;
+  height: 120px;
+}
+#headerDiv {
+  width: 100%;
+  background: #c48d9a;
+  margin: 5px;
+}
+
+#siteTitle {
+  font-family: masterOfBreak;
+  font-size: 50px;
+  color: white;
+  padding: 35px;
+}
+
+@font-face {
+  font-family:masterOfBreak;
+  src:
+  local('master of break')
+  local('master_of_break')
+  local('master-of-break')
+  url(fontsDir/master_of_break.ttf)
+  format('truetype');
+}
+
+/* regular Museo Slab */
+@font-face {
+  font-family: museoSlab;
+  src:
+  local('Museo Slab')
+  local('Museo-Slab')
+  url(fontsDir/Museo_Slab.otf)
+  format('opentype');
+}
+/*bold Museo Slab */
+@font-face {
+  font-family: museoSlabBold;
+  src:
+  local('Museo Slab')
+  local('Museo-Slab')
+  url(fontsDir/Museo_Slab_1.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: montserrat;
+  src:
+  local('Montserrat')
+  url(fontsDir/Montserrat-Bold.ttf)
+  format('truetype');
+}

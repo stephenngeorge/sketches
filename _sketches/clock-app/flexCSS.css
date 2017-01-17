@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #e9e9e9;
+}
+canvas {
+  border: 2px solid black;
+  margin: 5px;
+}
+#textClockOne {
+  flex-grow: 1;
+  border-left: 2px solid black;
+}
+#textClockTwo {
+  flex-grow: 1;
+  border-right: 2px solid black;
+}
+.descriptionRight {
+  text-align: left;
+  margin: 5px;
+  padding: 10px 15px;
+}
+.descriptionLeft {
+  text-align: right;
+  margin: 5px;
+  padding: 10px 15px;
+}
+#mainContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #e9e9e9;
+  margin: 5px;
+}
+
+#canvasClocks {
+  width: 1100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: white;
+}
+#appNav {
+  background: white;
+  margin-right: 5px;
+  text-align: center;
+}
+.button {
+  width: 90%;
+  border-top: 2px solid #c48d9a;
+  border-bottom: 2px solid #c48d9a;
+  border-left: none;
+  border-right: none;
+  background: white;
+  margin: 5px 5px 0px 5px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  font-family: montserrat;
+  color: #c48d9a;
+}
+.button:hover {
+  background: #c48d9a;
+  color: white;
+}
+#toTop {
+  position: fixed;
+  width: 200px;
+  left: 17px;
+  bottom: 50px;
+  font-size: 16px;
+}
+h2 {
+  font-family: montserrat;
+  font-size: 35px;
+}
+p {
+  font-family: museoSlab;
+  font-size: 14px;
+  color: #333333;
+  margin: 10px 0px;
+}

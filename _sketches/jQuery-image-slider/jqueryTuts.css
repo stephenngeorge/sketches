@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slide img {
+  width: 600px;
+  height: 400px;
+}
+
+#slideWindow {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: 20px auto 10px;
+  position: relative;
+}
+#slideWindow #slideList {
+  list-style: none;
+  display: block;
+  height: 400px;
+  width: 3000px;
+}
+.slide {
+  width: 600px;
+  height: 400px;
+  display: inline-block;
+  float: left;
+}
+
+#next {
+  width: 40px;
+  height: 40px;
+  background: #ff6666;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 180px;
+  right: 0px;
+  cursor: pointer;
+  opacity: .3;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+}
+#prev {
+  width: 40px;
+  height: 40px;
+  background: #ff6666;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  cursor: pointer;
+  opacity: .3;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+}
+#slideWindow:hover #next, #slideWindow:hover #prev {
+  opacity: 1;
+}
+
+/*stylings for button navigation*/
+#imgNav {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+#imgNav ul {
+  list-style: none;
+}
+.navButton {
+  height: 20px;
+  width: 20px;
+  background: #ff6666;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  opacity: .4;
+  transition: opacity .5;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  cursor: pointer;
+}
+.navButton:hover {
+  opacity: 1;
+}

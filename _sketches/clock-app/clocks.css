@@ -1,0 +1,50 @@
+/* {
+text-align: center;
+margin: auto;}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid red;
+}
+
+#appNav {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding: 0px 20px;
+}
+.button {
+  background-color: #e9e9e9;
+  padding: 15px;
+  margin: 0px 2px 0px 0px;
+  border: 1px solid black;
+  font: bold 14px tahoma;
+  float: left;
+}
+
+#canvasClocks {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 1200px;
+}
+
+canvas {
+  border: 2px solid black;
+  float: left;
+  margin: 2px;
+  display: inline;
+}
+/*#canvas {
+  display: inline;
+}
+#canvas2{
+  display: inline;
+}

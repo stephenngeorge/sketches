@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#canvasWrapper {
+  margin-top: 30px;
+  width: 970px;
+  height: 550px;
+  position: relative;
+  text-align: right;
+}
+#canvasWrapper h1 {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  color: #2a2a2a;
+  font-family: Roboto;
+  font-size: 70px;
+  line-height: 90%;
+}
+#canvas {
+  float: left;
+  border: 5px solid #2a2a2a;
+}
+
+
+font-family: 'Roboto', sans-serif;
