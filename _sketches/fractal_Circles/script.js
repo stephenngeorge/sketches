@@ -1,8 +1,8 @@
 canvas = document.getElementById('canvas');
 ctx = canvas.getContext('2d');
 
-width = canvas.getAttribute('width');
-height = canvas.getAttribute('height');
+width = canvas.width;
+height = canvas.height;
 circles = [];
 //circle CONFIGURATION
 centreX = width / 2;
@@ -14,7 +14,7 @@ angL = (-Math.PI / 3);
 generations = 6;
 
 //draw background
-ctx.fillStyle = '#d3d3d3';
+ctx.fillStyle = '#f1f1f1';
 ctx.fillRect(0, 0, width, height);
 
 //constructor function
@@ -53,4 +53,3 @@ function Circle (x, y, r, depth, weight) {
 circle = new Circle(centreX, centreY, Radius, generations, border);
 circles[0] = circle;
 circles[0].show();
-alert(circles.length);

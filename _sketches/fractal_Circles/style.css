@@ -15,19 +15,5 @@ body {
   position: relative;
   text-align: right;
 }
-#canvasWrapper h1 {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  color: #2a2a2a;
-  font-family: Roboto;
-  font-size: 70px;
-  line-height: 90%;
-}
-#canvas {
-  float: left;
-  border: 5px solid #2a2a2a;
-}
-
 
 font-family: 'Roboto', sans-serif;
